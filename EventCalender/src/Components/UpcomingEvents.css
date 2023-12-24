@@ -1,0 +1,38 @@
+.upcoming-events-slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px; 
+    background-color: #ccd1d1;
+    border-radius: 100px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-button {
+    font-size: 24px;
+    cursor: pointer;
+    color: #0f0f0f; 
+    background-color: transparent; 
+    border: none;
+     
+    border-radius: 800px;
+   
+    outline: none !important; 
+  }
+  
+  .nav-button:hover {
+    color: #0f0f0f; 
+  }
+  
+  .nav-button-content {
+    color: black; 
+  }
+  
+  .event {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 18px;
+    margin: 0; 
+  }
+  
