@@ -17,6 +17,7 @@ function UpcomingEvents() {
       title: "Event 3",
       description: "Description for Event 3",
     },
+  
   ];
 
   const [clickedButton, setClickedButton] = useState(null);
