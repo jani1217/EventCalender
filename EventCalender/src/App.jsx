@@ -16,12 +16,22 @@ function App() {
         
       </>
     </Router>
+
     <div className="App">
     <div className='search-bar-container'>
       <SearchBar />
     </div>
   </div>
-    <UpcomingEvents />
+     <>
+       <section className=" container mx-auto flex flex-col justify-between gap-2 pb-[20rem]">
+      <div className="w-full  px-[2.5rem]">
+        
+        <div className="about-cards flex gap-10 flex-col md:flex-row">
+          <UpcomingEvents />
+        </div>
+      </div>
+    </section>
+  </>
     <AboutUs/>
     
     
