@@ -12,7 +12,7 @@ function App() {
         <>
           <Navbar />
           <div className="heading-container">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">Upcoming Events</h1>
+            <h1 className="text-6xl font-extrabold text-black mb-4 mt-8 ">UPCOMING EVENTS</h1>
             
           </div>
         </>

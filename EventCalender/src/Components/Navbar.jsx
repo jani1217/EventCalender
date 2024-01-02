@@ -4,12 +4,12 @@ export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-      <nav className="w-full bg-023440 shadow">
+      <nav className="w-full bg-white rounded-2xl shadow-2xl text-black">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <h2 className="text-2xl font-bold text-white">LOGO</h2>
+                            <h2 className="text-2xl font-bold text-black">LOGO</h2>
                         </a>
                         <div className="md:hidden">
                             <button
@@ -55,20 +55,20 @@ export default function Navbar() {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-indigo-200">
+                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-2xl font-bold">
+                            <li className="text-black hover:text-indigo-200">
                                 <a href="javascript:void(0)">Home</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-black hover:text-indigo-200">
                                 <a href="javascript:void(0)">Upcoming Events</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-black hover:text-indigo-200">
                                 <a href="javascript:void(0)">About US</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-black hover:text-indigo-200">
                                 <a href="javascript:void(0)">Contact US</a>
                             </li>
-                            <li className="text-white hover:text-indigo-200">
+                            <li className="text-black hover:text-indigo-200">
                                 <a href="javascript:void(0)">Clubs</a>
                             </li>
                         </ul>
@@ -92,13 +92,13 @@ export default function Navbar() {
                 <div className="hidden space-x-2 md:inline-block">
                     <a
                         href="javascript:void(0)"
-                        className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
+                        className="px-4 py-2  text-xl text-black border-2 border-black rounded-md shadow-xl hover:bg-gray-100"
                     >
                         Sign in
                     </a>
                     <a
                         href="javascript:void(0)"
-                        className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+                        className="px-4 py-2 text-xl text-black  rounded-md shadow-xl hover:bg-gray-100"
                     >
                         Sign up
                     </a>
