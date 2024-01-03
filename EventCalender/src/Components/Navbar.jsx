@@ -19,7 +19,7 @@ export default function Navbar() {
                                 {navbar ? (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white"
+                                        className="w-6 h-6 text-black"
                                         viewBox="0 0 20 20"
                                         fill="currentColor"
                                     >
@@ -32,7 +32,7 @@ export default function Navbar() {
                                 ) : (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white"
+                                        className="w-6 h-6 text-black"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -98,7 +98,7 @@ export default function Navbar() {
                     </a>
                     <a
                         href="javascript:void(0)"
-                        className="px-4 py-2 text-xl text-black  rounded-md shadow-xl hover:bg-gray-100"
+                        className="px-4 py-2 text-xl text-black border-2 border-black  rounded-md shadow-xl hover:bg-gray-100"
                     >
                         Sign up
                     </a>
