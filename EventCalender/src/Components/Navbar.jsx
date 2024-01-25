@@ -8,7 +8,7 @@ export default function Navbar() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <a href="javascript:void(0)">
+                        <a href="#">
                             <h2 className="text-2xl font-bold text-black">LOGO</h2>
                         </a>
                         <div className="md:hidden">
@@ -57,31 +57,31 @@ export default function Navbar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-2xl font-bold">
                             <li className="text-black hover:text-indigo-200">
-                                <a href="javascript:void(0)">Home</a>
+                                <a href="">Home</a>
                             </li>
                             <li className="text-black hover:text-indigo-200">
-                                <a href="javascript:void(0)">Upcoming Events</a>
+                                <a href="#">Upcoming Events</a>
                             </li>
                             <li className="text-black hover:text-indigo-200">
-                                <a href="javascript:void(0)">About US</a>
+                                <a href="#">About US</a>
                             </li>
                             <li className="text-black hover:text-indigo-200">
-                                <a href="javascript:void(0)">Contact US</a>
+                                <a href="#">Contact US</a>
                             </li>
                             <li className="text-black hover:text-indigo-200">
-                                <a href="javascript:void(0)">Clubs</a>
+                                <a href="#">Clubs</a>
                             </li>
                         </ul>
 
                         <div className="mt-3 space-y-2 lg:hidden md:inline-block">
                     <a
-                        href="javascript:void(0)"
+                        href="j#"
                         className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
                     >
                         Sign in
                     </a>
                     <a
-                        href="javascript:void(0)"
+                        href="#"
                         className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
                     >
                         Sign up
@@ -91,13 +91,13 @@ export default function Navbar() {
                 </div>
                 <div className="hidden space-x-2 md:inline-block">
                     <a
-                        href="javascript:void(0)"
+                        href="#"
                         className="px-4 py-2  text-xl text-black border-2 border-black rounded-md shadow-xl hover:bg-gray-100"
                     >
                         Sign in
                     </a>
                     <a
-                        href="javascript:void(0)"
+                        href="#"
                         className="px-4 py-2 text-xl text-black border-2 border-black  rounded-md shadow-xl hover:bg-gray-100"
                     >
                         Sign up
