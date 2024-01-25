@@ -63,14 +63,15 @@ export default function Navbar() {
                                 <a href="#">Upcoming Events</a>
                             </li>
                             <li className="text-black hover:text-indigo-200">
+                                <a href="#">Clubs</a>
+                            </li>
+                            <li className="text-black hover:text-indigo-200">
                                 <a href="#">About US</a>
                             </li>
                             <li className="text-black hover:text-indigo-200">
                                 <a href="#">Contact US</a>
                             </li>
-                            <li className="text-black hover:text-indigo-200">
-                                <a href="#">Clubs</a>
-                            </li>
+                            
                         </ul>
 
                         <div className="mt-3 space-y-2 lg:hidden md:inline-block">
