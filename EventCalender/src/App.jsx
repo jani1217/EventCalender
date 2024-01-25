@@ -26,13 +26,18 @@ function App() {
 
       <>
         <section className="container mx-auto flex flex-col justify-between gap-2 pb-[20rem]">
-          <div className="w-full  px-[2.5rem]">
+          <div className="w-full  px-[2.5 rem]">
             <div className="about-cards flex gap-10 flex-col md:flex-row">
               <UpcomingEvents />
             </div>
+          </div> 
+          <div className="heading-container">
+            <h1 className="text-6xl font-extrabold text-black mb-4 mt-8 ">CLUBS</h1>
+            
           </div>
         </section>
       </>
+    
       <AboutUs />
     </>
   );
