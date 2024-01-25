@@ -63,13 +63,13 @@ export default function Navbar() {
                                 <a href="javascript:void(0)">Upcoming Events</a>
                             </li>
                             <li className="text-black hover:text-indigo-200">
+                                <a href="javascript:void(0)">Clubs</a>
+                            </li>
+                            <li className="text-black hover:text-indigo-200">
                                 <a href="javascript:void(0)">About US</a>
                             </li>
                             <li className="text-black hover:text-indigo-200">
                                 <a href="javascript:void(0)">Contact US</a>
-                            </li>
-                            <li className="text-black hover:text-indigo-200">
-                                <a href="javascript:void(0)">Clubs</a>
                             </li>
                         </ul>
 
