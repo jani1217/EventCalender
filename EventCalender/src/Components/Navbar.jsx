@@ -75,7 +75,7 @@ export default function Navbar() {
 
                         <div className="mt-3 space-y-2 lg:hidden md:inline-block">
                     <a
-                        href="j#"
+                        href="#"
                         className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
                     >
                         Sign in
