@@ -57,7 +57,10 @@ export default function Navbar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-2xl font-bold">
                             <li className="text-black hover:text-indigo-200">
-                                <a href="">Home</a>
+
+                                
+                                <a href="#">Home</a>
+
                             </li>
                             <li className="text-black hover:text-indigo-200">
                                 <a href="#">Upcoming Events</a>
