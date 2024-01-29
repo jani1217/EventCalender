@@ -4,7 +4,7 @@ import AboutUs from './Components/AboutUs';
 import { SearchBar } from './Components/SearchBar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import UpcomingEvents from './Components/UpcomingEvents';
-
+import Clubs from './Components/Clubs';
 function App() {
   return (
     <>
@@ -35,11 +35,17 @@ function App() {
             <h1 className="text-6xl font-extrabold text-black mb-4 mt-8 ">CLUBS</h1>
             
           </div>
+          <div className="heading-container">
+            <h1 className="text-6xl font-extrabold text-black mb-4 mt-8 ">CLUBS</h1>
+            
+          </div>
+          <Clubs/>
         </section>
       </>
-    
+
       <AboutUs />
     </>
+     
   );
 }
 
